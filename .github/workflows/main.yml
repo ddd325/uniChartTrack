@@ -23,7 +23,8 @@ jobs:
         R -e 'install.packages(c("httr","jsonlite"))'
     
     - name: Run scraper
-      run:  Rscript main.R
+      run: | 
+        Rscript main.R
 
     # Add new files in data folder, commit along with other modified files, push
     - name: Commit files
