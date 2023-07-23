@@ -34,6 +34,9 @@ jobs:
       run: |
         git config --local user.name github-actions
         git config --local user.email "actions@github.com"
+        git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
         git add .
         git commit -am "updated uniChart $(date)"
-        git push
+        git push origin master
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
