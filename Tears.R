@@ -34,7 +34,7 @@ if (http_status(response)$category == "Success") {
   
   colnames(out_data) =  c('时间','下次更新','排名','分数','播放','传播','喜好','畅销','推荐')
   
-  write.table(out_data, "Song2.csv", 
+  write.table(out_data, "data/Song2.csv", 
               row.names = FALSE,col.names = FALSE, append = TRUE)
 
   

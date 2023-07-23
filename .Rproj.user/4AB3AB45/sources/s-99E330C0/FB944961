@@ -17,11 +17,19 @@
         "scrollLine": "26"
     },
     "folds": "",
+<<<<<<< Updated upstream
     "lastKnownWriteTime": 1690153979,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
     "last_content_update": 1690153979,
+=======
+    "lastKnownWriteTime": 1690154033,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1690154033,
+>>>>>>> Stashed changes
     "read_only": false,
     "read_only_alternatives": []
 }
