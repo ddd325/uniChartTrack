@@ -6,6 +6,9 @@ on:
   push:
   schedule:
     - cron: "*/30 * * * *"
+    
+permissions:
+  actions: write
 
 jobs: 
   autoscrape:
