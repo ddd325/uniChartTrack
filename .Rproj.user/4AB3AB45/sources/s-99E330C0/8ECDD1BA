@@ -1,35 +1,27 @@
 {
-    "id": "D66F9AA7",
+    "id": "8ECDD1BA",
     "path": "~/Documents/安利大作战/uniChartTrack/Treasure Hunt.R",
     "project_path": "Treasure Hunt.R",
     "type": "r_source",
     "hash": "0",
     "contents": "",
     "dirty": false,
-    "created": 1690146828489.0,
+    "created": 1690161691325.0,
     "source_on_save": false,
-    "relative_order": 1,
+    "relative_order": 3,
     "properties": {
         "tempName": "Untitled1",
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "36,37",
-        "scrollLine": "30"
+        "cursorPosition": "35,2",
+        "scrollLine": "22"
     },
     "folds": "",
-<<<<<<< Updated upstream
-    "lastKnownWriteTime": 1690153979,
+    "lastKnownWriteTime": 1690161900,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1690153979,
-=======
-    "lastKnownWriteTime": 1690154033,
-    "encoding": "UTF-8",
-    "collab_server": "",
-    "source_window": "",
-    "last_content_update": 1690154033,
->>>>>>> Stashed changes
+    "last_content_update": 1690161900127,
     "read_only": false,
     "read_only_alternatives": []
 }
