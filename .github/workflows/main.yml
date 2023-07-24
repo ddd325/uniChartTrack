@@ -32,11 +32,11 @@ jobs:
     # Add new files in data folder, commit along with other modified files, push
     - name: Commit files
       run: |
-        git config --local user.name github-actions
-        git config --local user.email "actions@github.com"
+        git config --local user.name ddd325
+        git config --local user.email "104542265+ddd325@users.noreply.github.com"
         git add .
         git commit -am "updated scraping $(date)"
         git push origin master
       env:
         REPO_KEY: ${{secrets.GITHUB_TOKEN}}
-        username: github-actions
+        username: ddd325
