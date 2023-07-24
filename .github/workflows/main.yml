@@ -3,6 +3,7 @@ name: get uni
 
 # Controls when the action will run.
 on:
+  push:
   schedule:
     - cron: "*/15 * * * *"
     
