@@ -23,7 +23,7 @@ jobs:
     # Set-up R
     - name: Install packages
       run: |
-        R -e 'install.packages(c("httr","jsonlite")), repos="https://cloud.r-project.org")'
+        R -e 'install.packages(c("httr","jsonlite"), repos="https://cloud.r-project.org")'
     
     - name: Run scraper
       run: | 
