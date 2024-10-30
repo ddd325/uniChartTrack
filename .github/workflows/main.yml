@@ -24,20 +24,14 @@ jobs:
       with:
         r-version: '4.2.0'  # Specify your R version
 
-    # Cache R packages
-    - name: Cache R packages
-      uses: actions/cache@v3
-      with:
-        path: ~/.R/           # The directory where R packages are installed
-        key: ${{ runner.os }}-R-${{ hashFiles('main.R') }}
-        restore-keys: |
-          ${{ runner.os }}-R-
-
     # Install R packages if missing
     - name: Install R packages
       run: |
         R -e 'if (!requireNamespace("httr", quietly = TRUE)) install.packages("httr", repos = "https://cloud.r-project.org")'
         R -e 'if (!requireNamespace("jsonlite", quietly = TRUE)) install.packages("jsonlite", repos = "https://cloud.r-project.org")'
+    
+    - name: run main script
+      run: R main.R
 
     # Add new files in data folder, commit along with other modified files, push
     - name: Commit files
